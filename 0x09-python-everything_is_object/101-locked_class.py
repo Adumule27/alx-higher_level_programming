@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-"""lockedclass"""
+"""LockedClass module."""
 
 
 class LockedClass:
-    """locked class"""
+    """LockedClass class containing  only __slots__."""
     __slots__ = ['first_name']
-
-    def __init__(self):
-        pass
